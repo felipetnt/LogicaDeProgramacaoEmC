@@ -2,7 +2,8 @@
 e multiplicação dos valores entre si, baseando-se na utilização da propriedade 
 distributiva, ou seja, se forem lidas as variáveis A, B, C e D, devem ser somadas 
 e multiplicadas A com B, A com C e A com D; B com C, B com D e por último C 
-com D. */
+com D. 
+TANTO FAZ*/
 
 #include <stdio.h>
 int main(){
@@ -21,7 +22,7 @@ int main(){
     int multAD;
     int multBC;
     int multBD;
-    int multCD;
+    int multCD; 
 
     printf("Para somar e multiplicar 4 valores, A, B, C e D, digite o valor de A abaixo: \n");
     scanf("%d", &A);
